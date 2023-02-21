@@ -1,8 +1,8 @@
+import { Outlet } from 'react-router-dom';
+
 import { Sidebar } from '../components/Sidebar';
 
-import { Outlet, RouterProvider } from 'react-router-dom';
-import { router } from '../routes';
-
+import './Default.css';
 
 export function Default() {
   return(
